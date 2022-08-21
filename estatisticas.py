@@ -23,3 +23,4 @@ print('Total de Posts:', total_posts)
 print('Média de Likes por Posts:', average_likes_per_post)
 
 #Só para não fechar no cmd
+input()
