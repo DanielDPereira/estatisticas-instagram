@@ -117,7 +117,7 @@ print('Total de Likes:', total_likes)
 print('Total de Posts:', total_posts)
 print('Média de Likes por Posts:', average_likes_per_post)
 print("Período: ", diferenca, " dias")
-print("Média de posts por dia: ", diferenca/total_posts)
+print("Em média, posts a cada: ", diferenca/total_posts)
 input()
 #Print dos resultados - Fim
 
