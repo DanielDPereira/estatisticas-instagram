@@ -1,3 +1,9 @@
+#Relatório para Instagram
+
+nome_relatorio = str(input("Digite o nome do relatório: "))
+
+seguidores = int(input("Digite a quantidade de seguidores: "))
+
 likes_input = input('Insira os likes dos posts (separe com uma ","): ')
 
 # Transformando os likes em um array de string (que vai ser convertido pra número depois)
@@ -113,11 +119,13 @@ diferenca = diferenca_data(x, y)
 
 #Print dos resultados - Início
 
-print('Total de Likes:', total_likes)
-print('Total de Posts:', total_posts)
-print('Média de Likes por Posts:', average_likes_per_post)
-print("Período: ", diferenca, " dias")
-print("Em média, posts a cada: ", diferenca/total_posts)
+print(nome_relatorio)
+print("Total de seguidores:", seguidores)
+print("Total de Likes:", total_likes)
+print("Total de Posts:", total_posts)
+print("Média de Likes por Posts:", average_likes_per_post)
+print("Período: "+str(diferenca)+" dias")
+print("Em média, posts a cada "+str(diferenca/total_posts)+" dias")
 input()
 #Print dos resultados - Fim
 
