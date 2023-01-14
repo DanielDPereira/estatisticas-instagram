@@ -17,6 +17,16 @@ while True:
     event, values = window.read()
     if event == sg.WIN_CLOSED or event == 'Cancel': # if user closes window or clicks cancel
         break
-    print('You entered ', values[0])
 
+    #Programa - início
+        
+    #Caputurando inputs    
+    nome_relatorio = values[0]
+    seguidores = values[1]
+    likes_input = values[2]
+    
+    print(nome_relatorio)
+    print(seguidores)
+    print(likes_input)
+    
 window.close()
