@@ -126,7 +126,6 @@ print("Total de Posts:", total_posts)
 print("Média de Likes por Posts:", average_likes_per_post)
 print("Período: "+str(diferenca)+" dias")
 print("Em média, posts a cada "+str(diferenca/total_posts)+" dias")
-input()
 #Print dos resultados - Fim
 
 #Só para não fechar o cmd
