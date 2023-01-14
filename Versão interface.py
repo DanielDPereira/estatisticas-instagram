@@ -22,7 +22,7 @@ while True:
         
     #Caputurando inputs    
     nome_relatorio = values[0]
-    seguidores = values[1]
+    seguidores = int(values[1])
     likes_input = values[2]
     
     print(nome_relatorio)
