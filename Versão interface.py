@@ -146,7 +146,11 @@ while True:
     
     #limitando decimais
     average_likes_per_post_round = round(average_likes_per_post, 2)
-    média_posts_por_dia_round = round(média_posts_por_dia, 2) 
+    média_posts_por_dia_round = round(média_posts_por_dia, 2)
+    
+    #transformando em string 
+    average_likes_per_post_round = str(average_likes_per_post_round)
+    média_posts_por_dia_round = str(média_posts_por_dia_round)
     
     window.close()
 
