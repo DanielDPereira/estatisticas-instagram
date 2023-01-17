@@ -117,6 +117,8 @@ diferenca_de_dias = diferenca_data(x, y)
 
 #Código data - Fim
 
+média_posts_por_dia = diferenca_de_dias/total_posts
+
 #Print dos resultados - Início
 
 print(nome_relatorio)
@@ -125,7 +127,7 @@ print("Total de Likes:", total_likes)
 print("Total de Posts:", total_posts)
 print("Média de Likes por Posts:", average_likes_per_post)
 print("Período: "+str(diferenca_de_dias)+" dias")
-print("Em média, posts a cada "+str(diferenca_de_dias/total_posts)+" dias")
+print("Em média, posts a cada "+str(média_posts_por_dia)+" dias")
 #Print dos resultados - Fim
 
 #Só para não fechar o cmd
