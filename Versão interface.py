@@ -1,5 +1,7 @@
 import PySimpleGUI as sg
 
+#Início do calculo de data
+
 #Use o modelo DD/MM/AAAA
 
 def dia_no_ano(dia, mes, ano):
@@ -79,6 +81,8 @@ def diferenca_data(data1, data2):
 
   # Resultado da função.
   return dias_total
+
+#Fim do calculo de data
 
 sg.theme('DarkPurple1')   # Add a touch of color
 # All the stuff inside your window.
