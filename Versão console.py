@@ -14,7 +14,7 @@ likes_list_string = likes_input.split(',')
 likes_list = []
 
 for elemento in likes_list_string:
-    likes_convertido_em_numero = float(elemento)
+    likes_convertido_em_numero = int(elemento)
 
     # adicionando o numero de likes do post no array
     likes_list.append(likes_convertido_em_numero) 
