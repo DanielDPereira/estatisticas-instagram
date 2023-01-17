@@ -128,6 +128,8 @@ while True:
     # Calcula a diferença.
     diferenca_de_dias = diferenca_data(x, y)
     
+    média_posts_por_dia = diferenca_de_dias/total_posts
+    
     #Print dos resultados - Início
     print(nome_relatorio)
     print("Total de seguidores:", seguidores)
@@ -135,7 +137,7 @@ while True:
     print("Total de Posts:", total_posts)
     print("Média de Likes por Posts:", average_likes_per_post)
     print("Período: "+str(diferenca_de_dias)+" dias")
-    print("Em média, posts a cada "+str(diferenca_de_dias/total_posts)+" dias")
+    print("Em média, posts a cada "+str(média_posts_por_dia)+" dias")
     #Print dos resultados - Fim
     
 window.close()
