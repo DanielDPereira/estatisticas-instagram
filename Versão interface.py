@@ -144,4 +144,18 @@ while True:
     print("Em média, posts a cada "+str(média_posts_por_dia)+" dias")
     #Print dos resultados - Fim
     
+    window.close()
+
+    layout1 = [[sg.Text(nome_relatorio)],
+    [sg.Text("Total de seguidores:", seguidores)],
+    [sg.Text("Total de Likes:", total_likes)],
+    [sg.Text("Total de Posts:", total_posts)],
+    [sg.Text("Média de Likes por Posts:", average_likes_per_post)],
+    [sg.Text("Período: "+str(diferenca_de_dias)+" dias")],
+    [sg.Text("Em média, posts a cada "+str(média_posts_por_dia)+" dias")],
+    [sg.Text('Created by DanielDPereira')]]
+
+    window = sg.Window('Resultados', layout1)
+
 window.close()
+
