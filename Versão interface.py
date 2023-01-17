@@ -155,9 +155,9 @@ while True:
     window.close()
 
     layout1 = [[sg.Text(nome_relatorio)],
-    [sg.Text("Total de seguidores:", seguidores)],
-    [sg.Text("Total de Likes:", total_likes)],
-    [sg.Text("Total de Posts:", total_posts)],
+    [sg.Text("Total de seguidores: "+str(seguidores))],
+    [sg.Text("Total de Likes: "+str(total_likes))],
+    [sg.Text("Total de Posts: "+str(total_posts))],
     [sg.Text("Média de Likes por Posts: "+ average_likes_per_post_round)],
     [sg.Text("Período: "+str(diferenca_de_dias)+" dias")],
     [sg.Text("Em média, posts a cada "+média_posts_por_dia_round+" dias")],
