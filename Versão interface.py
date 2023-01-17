@@ -166,3 +166,4 @@ while True:
     window = sg.Window('Resultados', layout1)
 
 input()
+window.close()
