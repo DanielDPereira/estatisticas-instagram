@@ -43,9 +43,12 @@ while True:
     total_posts = len(likes_list) # Tamanho da lista (quantos elementos tem) é o número de posts
     average_likes_per_post = total_likes / total_posts
     
+    #Print dos resultados - Início
     print(nome_relatorio)
-    print(seguidores)
-    print(likes_list)
-    print(sum(likes_list))
+    print("Total de seguidores:", seguidores)
+    print("Total de Likes:", total_likes)
+    print("Total de Posts:", total_posts)
+    print("Média de Likes por Posts:", average_likes_per_post)
+    #Print dos resultados - Fim
     
 window.close()
