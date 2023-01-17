@@ -158,9 +158,9 @@ while True:
     [sg.Text("Total de seguidores:", seguidores)],
     [sg.Text("Total de Likes:", total_likes)],
     [sg.Text("Total de Posts:", total_posts)],
-    [sg.Text("Média de Likes por Posts:", average_likes_per_post)],
+    [sg.Text("Média de Likes por Posts: "+ average_likes_per_post_round)],
     [sg.Text("Período: "+str(diferenca_de_dias)+" dias")],
-    [sg.Text("Em média, posts a cada "+str(média_posts_por_dia)+" dias")],
+    [sg.Text("Em média, posts a cada "+média_posts_por_dia_round+" dias")],
     [sg.Text('Created by DanielDPereira')]]
 
     window = sg.Window('Resultados', layout1)
