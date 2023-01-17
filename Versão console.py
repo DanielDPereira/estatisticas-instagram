@@ -113,7 +113,7 @@ x = input(("Digite a data do primeiro post: "))
 y = input(("Digite a data do último post: "))
 
 # Calcula a diferença.
-diferenca = diferenca_data(x, y)
+diferenca_de_dias = diferenca_data(x, y)
 
 #Código data - Fim
 
@@ -124,8 +124,8 @@ print("Total de seguidores:", seguidores)
 print("Total de Likes:", total_likes)
 print("Total de Posts:", total_posts)
 print("Média de Likes por Posts:", average_likes_per_post)
-print("Período: "+str(diferenca)+" dias")
-print("Em média, posts a cada "+str(diferenca/total_posts)+" dias")
+print("Período: "+str(diferenca_de_dias)+" dias")
+print("Em média, posts a cada "+str(diferenca_de_dias/total_posts)+" dias")
 #Print dos resultados - Fim
 
 #Só para não fechar o cmd
