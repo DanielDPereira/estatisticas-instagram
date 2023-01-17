@@ -134,8 +134,8 @@ while True:
     print("Total de Likes:", total_likes)
     print("Total de Posts:", total_posts)
     print("Média de Likes por Posts:", average_likes_per_post)
-    
-    print(diferenca)
+    print("Período: "+str(diferenca)+" dias")
+    print("Em média, posts a cada "+str(diferenca/total_posts)+" dias")
     #Print dos resultados - Fim
     
 window.close()
