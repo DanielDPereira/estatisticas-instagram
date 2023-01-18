@@ -97,7 +97,7 @@ layout = [  [sg.Text('Relatório Instagram')],
             [sg.InputText()],
             [sg.Text('Digite a data do último post')],
             [sg.InputText()],
-            [sg.Button('Ok'), sg.Button('Cancel')] ]
+            [sg.Button('Calcular'), sg.Button('Cancelar')] ]
 
 # Create the Window
 window = sg.Window('Relatório', layout)
