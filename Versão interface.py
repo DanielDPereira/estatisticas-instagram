@@ -87,11 +87,16 @@ def diferenca_data(data1, data2):
 sg.theme('DarkPurple1')   # Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('Relatório Instagram')],
-            [sg.Text('Insira o nome do relatório'), sg.InputText()],
-            [sg.Text('Insira a quantidade de seguidores'), sg.InputText()],
-            [sg.Text('Insira os likes dos posts (separe com uma ",")'), sg.InputText()],
-            [sg.Text('Digite a data do primeiro post'), sg.InputText()],
-            [sg.Text('Digite a data do último post'), sg.InputText()],
+            [sg.Text('Insira o nome do relatório')],
+            [sg.InputText()],
+            [sg.Text('Insira a quantidade de seguidores')],
+            [sg.InputText()],
+            [sg.Text('Insira os likes dos posts (separe com uma ",")')],
+            [sg.InputText()],
+            [sg.Text('Digite a data do primeiro post')],
+            [sg.InputText()],
+            [sg.Text('Digite a data do último post')],
+            [sg.InputText()],
             [sg.Button('Ok'), sg.Button('Cancel')] ]
 
 # Create the Window
