@@ -132,4 +132,3 @@ print("Em média, posts a cada "+str(média_posts_por_dia)+" dias")
 
 #Só para não fechar o cmd
 input()
-
